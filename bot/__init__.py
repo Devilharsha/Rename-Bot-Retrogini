@@ -37,6 +37,7 @@ CUSTOM_CAPTION_UL_FILE = " "
 SAVED_RECVD_DOC_FILE = "File Downloaded Successfully 😎"
 UPLOAD_START = "Starting to upload..."
 AFTER_SUCCESSFUL_UPLOAD_MSG = "**Thank you for Using Me > ©  @RetroginiBots **"
+bot = Client("Rename-Bot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 
-updater = tg.Updater(token=TOKEN, use_context=True)
-dispatcher = updater.dispatcher
+
+bot.run()
