@@ -5,8 +5,7 @@ import logging
 
 from dotenv import load_dotenv
 
-import telegram.ext as tg
-
+from pyrogram import Client
 
 # Setup logger
 logging.basicConfig(
