@@ -7,7 +7,7 @@ from bot import *
 
 START_TEXT = '''
 Hey <b>{}</b> 
-I am one of the creations of <b>Retrogini</b>
+I am one of the creations of <b>@sutlu07</b>
 Just send me file and I'll rename it!
 Thumbnail support also available
 
@@ -60,13 +60,13 @@ async def start(_, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="Support",
-                        url="https://t.me/RetroginiBots",
+                        text="updates💓",
+                        url="https://t.me/KUDDJ",
                     ),
 
                     InlineKeyboardButton(
-                        text="Source",
-                        url="https://github.com/Kazama009/Rename-Bot-Retrogini",
+                        text="owner ❤️",
+                        url="https://t.me/sutlu07",
                     ),
                 ],
             ],
@@ -81,7 +81,7 @@ async def help(_, message):
 
 def main():
 
-    LOGGER.info("Rename Bot - Retrogini has successfully started")
+    LOGGER.info("Rename Bot - senku has successfully started")
 
     plugins = dict(root="bot/plugins")
 
